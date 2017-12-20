@@ -116,7 +116,6 @@ function EmoteStore() {
 		}
 		logger.debug('Getter registered: ' + name);
 		getters[name] = getter;
-		ui.updateEmotes();
 	};
 
 	/**
